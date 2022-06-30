@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.service-ttl {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+}
+
+.service-item {
+  width: 32%;
+  background-color: #000;
+  color: #fff;
+}
+
+.service-img {
+  position: relative;
+}
+
+.service-img img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.img-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.service-txt {
+  padding: 7% 4%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.service-txt p {
+  display: inline-block;
+  text-align: justify;
+}

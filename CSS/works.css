@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.top-works-img {
+  -o-object-position: 50% 100%;
+  object-position: 50% 100%;
+}
+
+.works-grid {
+  display: grid;
+  gap: 2%;
+  grid-template-columns: repeat(3, minmax(30%, 1fr));
+  margin-top: 3%;
+}
+
+.works-item {
+  margin-bottom: 2rem;
+}
+
+.works-item img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 10rem;
+}
+
+.works-item p {
+  padding: 1% 5%;
+}
+
+.works-place {
+  font-weight: bold;
+  font-size: 1rem;
+}

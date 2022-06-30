@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/* 共通 */
+
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #000;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 画面幅 */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+/* header */
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo a {
+  display: inline-block;
+  display: flex;
+}
+
+.header-logo a li {
+  text-align: center;
+}
+
+.company-name {
+  color: #fff;
+  display: inline-block;
+  font-size: 32px;
+  height: 60px;
+  padding-left: 15px;
+}
+
+.header-nav_list {
+  display: flex;
+  font-size: 0.85rem;
+  height: 60px;
+  line-height: 60px;
+}
+
+.header-nav_list li {
+  margin-left: 10px;
+}
+
+.header-nav_list li a {
+  color: #fff;
+}
+
+.header-nav_list li a:hover {
+  opacity: 0.6;
+}
+
+.header-nav_list li .color {
+  color: #12a3d1;
+}
+
+/* section共通 */
+.sec-ttl {
+  font-size: 2rem;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sec-ttl small {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.sec-subheading {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sec-txt {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+/* btn */
+.btn {
+  width: 200px;
+  margin: 0 auto;
+  line-height: 3;
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.m-btn {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  align-items: center;
+  letter-spacing: 0.06rem;
+}
+
+.m-btn-black {
+  color: #000;
+  border: 1px solid #1dccf2;
+}
+.m-btn-white {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.m-btn:hover {
+  opacity: 0.5;
+}
+
+.m-btn::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 1.2rem;
+  bottom: 0;
+  width: 0.6rem;
+  height: 0.6rem;
+  transform: rotate(45deg);
+  margin: auto;
+}
+
+.m-btn-black::after {
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.m-btn-white::after {
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+/* 背景共通 */
+.bgc-black {
+  background-color: #000;
+  color: #fff;
+}
+
+/* footer */
+.footer-logo {
+  padding: 1rem 0;
+}
+
+.footer-inner {
+  display: flex;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 1rem;
+}
+
+.footer-separation {
+  width: calc(100% / 3);
+}
+
+.footer-company-info {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.address {
+  margin-bottom: 1.5rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-nav-item li {
+  padding-bottom: 1rem;
+}
+
+.footer-nav-item li a {
+  color: #fff;
+}
+
+.footer-nav-item li a:hover {
+  opacity: 0.6;
+}
+
+.footer-contact-btn {
+  background-color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3% 0;
+  position: relative;
+}
+
+.footer-btn-box {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  align-items: center;
+  letter-spacing: 0.06rem;
+}
+
+.footer-btn-box::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 1.2rem;
+  bottom: 0;
+  width: 0.6rem;
+  height: 0.6rem;
+  transform: rotate(45deg);
+  margin: auto;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.contact-ttl {
+  font-size: 1.5rem;
+  margin-bottom: unset;
+  line-height: 0.8;
+}
+
+.contact-ttl small {
+  font-size: 0.8rem;
+}
+
+.footer-btn-box p {
+  font-size: 0.8rem;
+  padding-top: 1rem;
+}
+
+.footer-btn-box:hover {
+  opacity: 0.7;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 15px;
+}

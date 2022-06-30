@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* 共通 */
+
+/* top-message */
+.top-message-bgc {
+  display: flex;
+  margin-top: 1rem;
+}
+
+
+
+.top-message_txt {
+  width: 45%;
+  padding: 4% 3%;
+}
+
+.top-message_txt h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.top-message_txt {
+  font-size: 0.85rem;
+}
+
+.top-message-president {
+  width: 55%;
+  position: relative;
+  text-align: center;
+}
+
+.top-message-president img {
+  width: 100%;
+}
+
+.top-message-img::after {
+  position: absolute;
+  content: "Ryujiro Mamiya";
+  color: #fff;
+  top: 30%;
+  right: 5%;
+  font-size: 1.5rem;
+}
+
+.top-message-img {
+  position: absolute;
+  top: -1rem;
+  position: relative;
+}
+
+.top-message-img p {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/* corporate-philosophy */
+
+.corporate-philosophy {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.corporate-philosophy-img {
+  height: 500px;
+}
+
+.corporate-philosophy-img img {
+  -webkit-filter: opacity(30%);
+  filter: opacity(30%);
+  height: 100%;
+}
+
+.corporate-philosophy-txt {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 100%;
+}
+
+.corporate-philosophy-txt p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Company Overview */
+.overview {
+  display: flex;
+  width: 100%;
+  font-family: "Noto Serif JP", serif;
+}
+
+.overview-left {
+  width: 55%;
+}
+
+.overview-item {
+  display: flex;
+  border-bottom: 1px solid #000;
+  line-height: 2;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+
+.overview-item h3 {
+  width: 5rem;
+  min-width: 5rem;
+  font-weight: 600;
+}
+
+.overview-right {
+  width: 45%;
+  padding: 3%;
+}
+
+.overview-img {
+  margin-bottom: 1rem;
+}
+
+.overview-img img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#works.sec-content-mb {
+  margin-bottom: 0;
+}
