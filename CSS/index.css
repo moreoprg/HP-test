@@ -25,13 +25,13 @@
 
 .home-content .page-ttl {
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   color: #fff;
 }
 
 .home-content p {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -134,7 +134,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -198,12 +198,12 @@
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  font-size: 0.85rem;
+  font-size: 1rem;
   line-height: 2;
 }
 
 .works-img-ttl span {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: bold;
   line-height: 1;
 }

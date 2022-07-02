@@ -26,7 +26,7 @@
 }
 
 .contact-item small {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 .contact-body {
@@ -75,6 +75,7 @@
   -moz-appearance: none;
   cursor: pointer;
   letter-spacing: 0.06rem;
+  font-size: 1rem;
 }
 
 .contact-btn-area::after {
@@ -82,7 +83,7 @@
   display: block;
   content: "";
   top: 0;
-  right: 1rem;
+  right: 0.5rem;
   bottom: 0;
   width: 0.6rem;
   height: 0.6rem;

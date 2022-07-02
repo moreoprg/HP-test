@@ -2,42 +2,48 @@
 /* 採用情報 */
 
 /* 採用メッセージ */
-.recruit-message{
+.recruit-message {
   text-align: center;
 }
 
-.recruit-message h4{
+.recruit-message h4 {
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
+.recruit-message p {
+  font-size: 1.3rem;
+}
 
 /* 募集要項 */
-.recruit-info{
+.recruit-info {
   padding-top: 2rem;
 }
 
-.recruit-content{
+.recruit-content {
   font-family: "Noto Serif JP", serif;
-  max-width: 70%;
+  max-width: 85%;
   margin: 0 auto;
-
 }
 
-.recruit-list{
+.recruit-list {
   padding-bottom: 3%;
 }
 
-.recruit-list h4{
+.recruit-list h4 {
   font-size: 1.5rem;
   text-align: center;
   font-weight: bold;
 }
 
-.recruit-item{
+.recruit-item {
   border-bottom: 1px solid #000;
   font-weight: 500;
   padding-top: 2%;
+}
+
+.recruit-occupation {
+  font-size: 1.2rem;
 }
 
 /* 先輩社員の声 */
@@ -51,7 +57,7 @@
 
 .employee-item {
   width: 32%;
-  background-color: #F0F7FC;
+  background-color: #f0f7fc;
 }
 
 .employee-img {
@@ -69,10 +75,12 @@
   padding: 7% 1rem;
   text-align: center;
   margin: 0 auto;
+  font-size: 1.5rem;
 }
 
 .employee-txt p {
   display: inline-block;
   text-align: justify;
   padding-top: 5%;
+  font-size: 1.2rem;
 }
